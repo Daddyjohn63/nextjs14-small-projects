@@ -15,11 +15,12 @@ export default function Home() {
             lets <span className="text-primary">make things</span> easy
           </h1>
           <p className="leading-loose max-w-md mt-4 ">
-            I am baby wayfarers hoodie next level taiyaki brooklyn cliche blue bottle single-origin coffee chia.
-            Aesthetic post-ironic venmo, quinoa lo-fi tote bag adaptogen everyday carry meggings +1 brunch narwhal.
+            I am baby wayfarers hoodie next level taiyaki brooklyn cliche blue bottle
+            single-origin coffee chia. Aesthetic post-ironic venmo, quinoa lo-fi tote bag
+            adaptogen everyday carry meggings +1 brunch narwhal.
           </p>
           <Button asChild className="mt-4">
-            <Link href="/page-1">Get Started</Link>
+            <Link href="/create-course">Get Started</Link>
           </Button>
         </div>
         <Image src={LandingImg} alt="landing" className="hidden lg:block " />

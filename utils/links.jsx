@@ -2,8 +2,8 @@ import { AreaChart, Layers, AppWindow } from 'lucide-react';
 
 const links = [
   {
-    href: '/page-1',
-    label: 'page 1',
+    href: '/create-course',
+    label: 'Create a Course',
     icon: <Layers />
   },
   {
