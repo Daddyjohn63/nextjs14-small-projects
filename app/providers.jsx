@@ -1,5 +1,8 @@
 'use client';
-import { ThemeProvider } from '@/components/theme-provider';
+
+import { ThemeProvider } from '../components/theme-provider';
+
+// import { ThemeProvider } from '@/components/theme-provider';
 
 const Providers = ({ children }) => {
   return (
