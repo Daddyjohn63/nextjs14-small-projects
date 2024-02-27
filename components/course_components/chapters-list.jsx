@@ -1,9 +1,9 @@
 'use client';
-import { Chapter } from '@prisma/client';
+
 import { useEffect, useState } from 'react';
 import { DragDropContext, Draggable, Droppable, DropResult } from '@hello-pangea/dnd';
 import { cn } from '@/lib/utils';
-import { Grid, Grip, Pencil } from 'lucide-react';
+import { Grip, Pencil } from 'lucide-react';
 import { Badge } from '../ui/badge';
 
 export const ChaptersList = ({ items, onReorder, onEdit }) => {
@@ -16,7 +16,7 @@ export const ChaptersList = ({ items, onReorder, onEdit }) => {
 
   useEffect(() => {
     setChapters(items);
-  }, []);
+  }, [items]);
 
   const onDragEnd = result => {
     if (!result.destination) return;
